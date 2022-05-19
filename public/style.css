@@ -1,0 +1,80 @@
+:root {
+  --dark:rgba(18, 17, 17, 0.8);
+  --feint:rgba(0, 0, 0, 0.645);
+  --danger:rgba(255, 72, 0, 0.619);
+  --transition:rgba(0, 0, 0, 0.07);
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(198, 198, 198);
+  
+}
+.container{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  padding: 10px;
+  color: white;
+  background: var(--dark);
+  font-size: large;
+}
+.calculator-grid{
+display: grid;
+grid-template-columns: repeat(4,6rem);
+grid-template-rows: minmax(7rem,auto) repeat(5,4rem);
+align-self:center;
+padding: 20px;
+}
+.calculator-grid> button{
+border: 0;
+border: 0.5px solid var(--dark);
+font-size: larger;
+padding: 10px;
+transition: 0.7s all ease;
+}
+.calculator-grid> button:hover{
+background-color: var(--transition);
+}
+footer {
+  color: var(--feint);
+  text-align: center;
+  padding: 20px;
+}
+.span-two{
+  grid-column: span 2;
+}
+.calculator-grid > .output{
+  grid-column: 1/-1;
+  background-color: var(--dark);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-around;
+  padding: .75rem;
+  word-wrap: break-word;
+  word-break: break-all;
+  
+  
+}
+.calculator-grid > .output > .previous{
+  color: rgba(240, 248, 255, 0.723);
+}
+.calculator-grid > .output > .current{
+  color: rgba(240, 248, 255, 0.723);
+  font-size: 40px;
+
+}
+.danger{
+  background: var(--danger);
+}
+.calculator-grid > .danger:hover{
+  background: rgba(182, 56, 6, 0.727);
+}
+
+/*# sourceMappingURL=style.css.map */
