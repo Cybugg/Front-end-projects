@@ -1,0 +1,82 @@
+
+
+body{
+    margin: 0;
+    padding:10px;
+    box-sizing: border-box;
+    background: linear-gradient(rgba(0, 0, 0, 0.719),rgba(0, 0, 0, 0.703)),URL(death-6054627.jpg);
+    height:100vh;
+    font-family:'cida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 10px;
+    background-size: cover;
+}
+
+
+
+/* quote */
+
+.pack{
+    position: relative;
+    background: rgba(255, 255, 255, 0.10);
+    backdrop-filter: (100%);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.pack > h2 {
+    color: white;
+    animation: animate 0.5s;
+    transition: all ease 1s;
+    width: 60%;
+    text-align: center;
+}
+
+.pack > p{
+    margin-top: 0;
+    color: white;
+    animation: animate 1s;
+    font-weight: 400;
+    font-style: italic;
+    transition: all ease 1s;
+}
+
+@keyframes animate {
+    0%{
+        transform: translateX(100%);
+        opacity: 0;
+    }
+}
+
+#nx{
+    position: absolute;
+    right: 10%;
+    background: 0;
+    border: 1px rgba(255, 255, 255, 0.54) solid;
+    padding: 10px;
+    border-radius: 100%;
+    color: rgba(255, 255, 255, 0.54);
+    cursor: pointer;
+}
+#pr{
+    position: absolute;
+    left: 10%;
+    background: 0;
+    border: 1px rgba(255, 255, 255, 0.54) solid;
+    padding: 10px;
+    border-radius: 100%;
+    color: rgba(255, 255, 255, 0.54);
+    cursor: pointer;
+}
+
+#nx:hover{
+    background: white;
+    color: rgba(0, 0, 0, 0.255);
+}
+#pr:hover{
+    background: white;
+    color: rgba(0, 0, 0, 0.255);
+}
