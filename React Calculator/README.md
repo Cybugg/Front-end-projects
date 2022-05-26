@@ -5,5 +5,8 @@ A prior knowledge in react is needed to really understand what is going down
 Happy Hacking!!
 
 <img  src="./public/Screenshot (56).png"/>
+<img  src="./public/Screenshot (57).png"/>
+<img  src="./public/Screenshot (58).png"/>
+<img  src="./public/Screenshot (59).png"/>
 - This folder contains the whole node modules
 
