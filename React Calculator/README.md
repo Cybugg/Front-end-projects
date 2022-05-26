@@ -9,9 +9,9 @@ Happy Hacking!!
 <p>Prior knowledge of React is needed for understanding<p>
 <p>for free courses on React you can check out: <a href="https://www.codecademy.com">Codecademy</a> or <a href="https://www.freecodecamp.org">Freecodecamp</a></p>
 <h3>install React</h3>
-<p>having installed  <a href="https://www.npmjs.com">Node Package Manager</a></p>
-<p>On the terminal navigate to the folder you want to store your react app folder</p>
-<p>Enter the following code:</p>
+- <p>Having installed  <a href="https://www.npmjs.com">Node Package Manager</a></p>
+- <p>On the terminal navigate to the folder you want to store your react app folder</p>
+- <p>Enter the following code:</p>
 <code><span style="background:;#adff2f">npx create-react-app calculator </span></code>
 </div>
 
