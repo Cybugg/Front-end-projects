@@ -4,6 +4,6 @@ Dont worry you will get a hand of it in no time,  as i have broken it down for e
 A prior knowledge in react is needed to really understand what is going down
 Happy Hacking!!
 
-![Calculator]("./Screenshot (56).png")
+![Calculator]("./public/Screenshot (56).png")
 - This folder contains the whole node modules
 
