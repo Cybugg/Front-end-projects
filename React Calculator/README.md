@@ -12,7 +12,7 @@ Happy Hacking!!
 - <p>Having installed  <a href="https://www.npmjs.com">Node Package Manager</a></p>
 - <p>On the terminal navigate to the folder you want to store your react app folder</p>
 - <p>Enter the following code:</p>
-<code><span style="background:;#adff2f">npx create-react-app calculator </span></code>
+<code><span style="background:#adff2f;">npx create-react-app calculator </span></code>
 </div>
 
 
