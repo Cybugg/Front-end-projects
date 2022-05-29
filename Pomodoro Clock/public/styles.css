@@ -1,0 +1,101 @@
+
+
+body{
+    margin: 0;
+    padding:10px;
+    box-sizing: border-box;
+    background: linear-gradient(rgba(0, 0, 0, 0.919),rgba(0, 0, 0, 0.703)),URL(death-6054627.jpg);
+    height:100vh;
+    font-family:'cida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 10px;
+    background-size: cover;
+}
+
+
+
+
+/* timer 25 + 5 */
+.timer{
+    height: 100vh;
+    background: rgba(10, 19, 61, 0.571);
+    color: white ;
+   
+}
+
+.time-sets{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.time-sets button{
+    font-size: 20px;
+    border-radius: 50%;
+    border: 0;
+    margin: 5px;
+    border: 1px solid rgb(111, 255, 130);
+    cursor: pointer;
+    background: transparent;
+    padding: 7px;
+    color: rgb(111, 255, 130);
+    transition: 1s all ease;
+}
+.time-sets button:hover{
+    color: black;
+    background: rgb(111, 255, 130);
+}
+.delayTime{
+    border: 2px rgb(111, 255, 130) solid;
+    border-radius: 10px;
+    font-size: 90px;
+    padding: 10px;
+
+}
+.timer .len{
+    display: flex;
+    justify-content: center;
+}
+.tit{
+    width: 100%;
+    display: grid;
+    justify-content: center; 
+    color:rgb(111, 255, 130) ;
+}
+.box{
+    margin: 20px;
+}
+
+.btn-ctrl{
+    font-size: 20px;
+    border-radius: 10px;
+    border: 0;
+    margin: 5px;
+    border: 1px solid rgb(111, 255, 130);
+    cursor: pointer;
+    background: transparent;
+    padding: 7px;
+    color: rgb(111, 255, 130);
+}
+.btn-rset{
+    font-size: 20px;
+    border-radius: 10px;
+    border: 0;
+    margin: 5px;
+    border: 1px solid rgb(111, 255, 130);
+    cursor: pointer;
+    background: transparent;
+    padding: 7px;
+    color: rgb(111, 255, 130);
+}
+.playnow{
+    display: flex;
+    justify-content: center;
+    
+}
+.playnow button{
+   transition: 1s all ease;
+}
+.playnow  button:hover{
+color: black;
+background: rgb(111, 255, 130);
+}
