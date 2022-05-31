@@ -1,0 +1,172 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    height:100vh;
+    font-family:'cida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 10px;
+    background-size: cover;
+    color: white;
+    background: #18193b;
+}
+
+.timer{
+    height: 100vh;
+    background: rgba(10, 19, 61, 0.571);
+    color: white ;
+   
+}
+
+.time-sets{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.time-sets button{
+    font-size: 20px;
+    border-radius: 50%;
+    border: 0;
+    margin: 5px;
+    border: 1px solid rgb(111, 255, 130);
+    cursor: pointer;
+    background: transparent;
+    padding: 7px;
+    color: rgb(111, 255, 130);
+    transition: 1s all ease;
+}
+.time-sets button:hover{
+    color: black;
+    background: rgb(111, 255, 130);
+}
+.delayTime{
+    border: 2px rgb(111, 255, 130) solid;
+    border-radius: 10px;
+    font-size: 90px;
+    padding: 10px;
+
+}
+.timer .len{
+    display: flex;
+    justify-content: center;
+}
+.tit{
+    width: 100%;
+    display: grid;
+    justify-content: center; 
+    color:rgb(111, 255, 130) ;
+}
+.box{
+    margin: 20px;
+}
+
+.btn-ctrl{
+    font-size: 20px;
+    border-radius: 10px;
+    border: 0;
+    margin: 5px;
+    border: 1px solid rgb(111, 255, 130);
+    cursor: pointer;
+    background: transparent;
+    padding: 7px;
+    color: rgb(111, 255, 130);
+}
+.btn-rset{
+    font-size: 20px;
+    border-radius: 10px;
+    border: 0;
+    margin: 5px;
+    border: 1px solid rgb(111, 255, 130);
+    cursor: pointer;
+    background: transparent;
+    padding: 7px;
+    color: rgb(111, 255, 130);
+}
+.playnow{
+    display: flex;
+    justify-content: center;
+    
+}
+.playnow button{
+   transition: 1s all ease;
+}
+.playnow  button:hover{
+color: black;
+background: rgb(111, 255, 130);
+}
+/* // test clock */
+.containerClock{
+   display: flex; 
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   background: rgb(12, 12, 62);
+}
+
+.displayTime{
+    border: 2px rgb(158, 44, 63) solid;
+    color: white;
+    border-radius: 50%;
+    padding: 50px;
+    height: 110px;
+    width: 110px;
+    font-size: 45px;
+    padding-bottom: 90px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.fan{
+    color: #A30000;
+}
+
+/* svg timer */
+.selfContain{
+    height: 100vh;
+    background-color: #18193b;
+  /* padding: 20px; */
+}
+.titleC{
+    padding: 10px 0 0 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.svgTime{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+min-height:80% ;
+}
+.format{
+    color: rgb(145, 145, 223);
+    text-decoration: dotted;
+    text-shadow: 2px 2px 2px rgb(6, 20, 37);
+}
+.iconsl{
+    color:rgb(145, 145, 223) ;
+}
+
+.btn{
+    border: 0;
+    border-radius: 50%;
+    color: rgba(255, 255, 255, 0.737);
+    font-size: 30px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.btn-flat{
+    background: transparent;
+}
+.btn-active{
+    background: orange;
+    color: white;
+
+}
+.btn-active:hover{
+    background: rgb(225, 179, 92);
+    color: white;
+
+}
+.controls{
+    position: absolute;
+    bottom: 20%;
+}
