@@ -1,7 +1,6 @@
 # POMODORO TIMER 
 - The app was made with react
 - Dependencies such as react and react-dom is needed to work
-- proudly inspired by FreeCodeCamp
 The folder contains the the source codes to this project, commented.
 - - This folder does not conatin node modules
 
