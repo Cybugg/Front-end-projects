@@ -167,7 +167,8 @@ if(state.session === 0 && payload === -60){
       settingsDisplay:false,
       timerDisplay:true,
       key:state.key + 1,
-      onplay:false
+      onplay:false,
+      onbreak:false
     }
   case ACTIONS.SETTINGSDISPLAY:
 
