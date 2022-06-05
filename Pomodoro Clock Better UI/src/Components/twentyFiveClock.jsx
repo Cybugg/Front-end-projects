@@ -21,7 +21,6 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import InstagramIcon from '@mui/icons-material/Instagram';
-import InfoIcon from '@mui/icons-material/Info';
 // Initial States
 const initialState ={
   onplay:false,
