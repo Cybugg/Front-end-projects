@@ -15,7 +15,7 @@ The folder contains the the source codes to this project, commented.
 - - This folder does not conatin node modules
 
 <h4>Pictures from this Project🐱‍🚀</h4>
-<h3>The timer home page🐱‍👓</h3>
+<h3>The Timer's Home Page🐱‍👓</h3>
 <img  src="./public/Screenshot (75).png"/>
 <img  src="./public/Screenshot (76).png"/>
 <img  src="./public/Screenshot (77).png"/>
