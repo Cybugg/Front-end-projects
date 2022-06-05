@@ -176,7 +176,8 @@ if(state.session === 0 && payload === -60){
       settingsDisplay:true,
       timerDisplay:false,
       themeDisplay:false,
-      aboutDisplay:false
+      aboutDisplay:false,
+      onplay:false
     }
   case ACTIONS.SWITCH:
 if(!state.onbreak){
@@ -229,7 +230,7 @@ const handleClickTheme = (e)=>{
 const formatTime = (time)=>{
   let mins = Math.floor(time / 60)
   let secs = time % 60
-  return (<h1 className={state.lightMode?"format-light":"format-dark"} style={state.onbreak?{color:"#48cb59",animation:"1s blink infinite"}:null
+  return (<h1 className={state.lightMode?"format-light":"format-dark"} style={state.onbreak?{color:"#48cb59"}:null
   } >{(mins < 10?"0"+ mins:mins) + ":" +
   (secs < 10?"0"+ secs:secs)}</h1>
   )
