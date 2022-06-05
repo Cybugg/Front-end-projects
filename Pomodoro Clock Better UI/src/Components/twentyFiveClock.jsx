@@ -12,7 +12,6 @@ import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
 import PersonIcon from '@mui/icons-material/Person';
 import PlayArrowIcon from '@mui/icons-material/PlayArrow';
 import PauseIcon from '@mui/icons-material/Pause';
-import TimerIcon from '@mui/icons-material/Timer';
 import CachedIcon from '@mui/icons-material/Cached';
 import { IconButton } from "@mui/material";
 import { useReducer } from "react";
