@@ -9,114 +9,6 @@ body{
     background: #18193b;
 }
 
-.timer{
-    height: 100vh;
-    background: rgba(10, 19, 61, 0.571);
-    color: white ;
-   
-}
-
-.time-sets{
-display: flex;
-align-items: center;
-justify-content: center;
-}
-
-.time-sets button{
-    font-size: 20px;
-    border-radius: 50%;
-    border: 0;
-    margin: 5px;
-    border: 1px solid rgb(111, 255, 130);
-    cursor: pointer;
-    background: transparent;
-    padding: 7px;
-    color: rgb(111, 255, 130);
-    transition: 1s all ease;
-}
-.time-sets button:hover{
-    color: black;
-    background: rgb(111, 255, 130);
-}
-.delayTime{
-    border: 2px rgb(111, 255, 130) solid;
-    border-radius: 10px;
-    font-size: 90px;
-    padding: 10px;
-
-}
-.timer .len{
-    display: flex;
-    justify-content: center;
-}
-.tit{
-    width: 100%;
-    display: grid;
-    justify-content: center; 
-    color:rgb(111, 255, 130) ;
-}
-.box{
-    margin: 20px;
-}
-
-.btn-ctrl{
-    font-size: 20px;
-    border-radius: 10px;
-    border: 0;
-    margin: 5px;
-    border: 1px solid rgb(111, 255, 130);
-    cursor: pointer;
-    background: transparent;
-    padding: 7px;
-    color: rgb(111, 255, 130);
-}
-.btn-rset{
-    font-size: 20px;
-    border-radius: 10px;
-    border: 0;
-    margin: 5px;
-    border: 1px solid rgb(111, 255, 130);
-    cursor: pointer;
-    background: transparent;
-    padding: 7px;
-    color: rgb(111, 255, 130);
-}
-.playnow{
-    display: flex;
-    justify-content: center;
-    
-}
-.playnow button{
-   transition: 1s all ease;
-}
-.playnow  button:hover{
-color: black;
-background: rgb(111, 255, 130);
-}
-/* // test clock */
-.containerClock{
-   display: flex; 
-   justify-content: center;
-   align-items: center;
-   height: 100vh;
-   background: rgb(12, 12, 62);
-}
-
-.displayTime{
-    border: 2px rgb(158, 44, 63) solid;
-    color: white;
-    border-radius: 50%;
-    padding: 50px;
-    height: 110px;
-    width: 110px;
-    font-size: 45px;
-    padding-bottom: 90px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.fan{
-    color: #A30000;
-}
-
 /* svg timer */
 .selfContain{
     height: 100vh;
@@ -128,17 +20,25 @@ background: rgb(111, 255, 130);
     font-size: 20px;
     font-weight: bold;
 }
+.theme-light-title{
+    color: rgb(144, 98, 80);
+}
+
 .svgTime{
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
 min-height:80% ;
+animation: 0.5s slide;
 }
-.format{
+.format-dark{
     color: rgb(145, 145, 223);
     text-decoration: dotted;
     text-shadow: 2px 2px 2px rgb(6, 20, 37);
+}
+.format-light{
+    color: rgb(144, 98, 80);
 }
 .iconsl{
     color:rgb(145, 145, 223) ;
@@ -147,9 +47,9 @@ min-height:80% ;
 .btn{
     border: 0;
     border-radius: 50%;
-    color: rgba(255, 255, 255, 0.737);
+    color: brown;
     font-size: 30px;
-    margin: 0 10px;
+    margin: 0 20px;
     cursor: pointer;
 }
 
@@ -166,7 +66,162 @@ min-height:80% ;
     color: white;
 
 }
+
 .controls{
+    text-align: center;
     position: absolute;
     bottom: 20%;
+}
+.theme{
+    position: absolute;
+    height: 100%;
+    background: #090a28;
+    box-shadow: 0.2px 0.2px  5px black;
+    width: 200px;
+    left: 0;
+    top: 0.1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: 0.5s slide 1;
+    transform: 1s all ease ;
+}
+@keyframes slide{
+    0%{  
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+}
+
+.theme h2{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.btn-dark{
+    background: transparent;
+    border: 1px solid white;
+}
+
+.btn-light {
+    background: #090a28;
+    border: 1px solid white;
+    
+}
+
+.check{
+    color: greenyellow;
+    animation: 10s check 1;
+    
+}
+
+.theme-btn{
+    margin: 30px 0;
+    color: rgb(218, 189, 135);
+}
+
+.nonDisplay{
+    display: none; 
+}
+
+.settings{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: 0.75s slide ;
+}
+.settings h2{
+    font-size: 22px;
+}
+.settings h1{
+    font-size:50px;
+}
+.settings button{
+    border: 0;
+    background-color: transparent;
+    color: white;
+    padding: 7.5px;
+    border:2px white solid;
+    border-radius: 50%;
+    margin: 0px 20px;
+    cursor: pointer;
+}
+
+.settings button:hover{
+    background: rgba(255, 255, 255, 0.125);
+}
+
+
+.save-btn{
+    border: 0;
+    border-radius: 10px;
+    padding: 7.5px;
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+    background: rgb(229, 100, 54);
+    /* border:1px white solid; */
+    color: white;
+    position: absolute;
+    left:2%;
+    bottom: 3%;
+}
+.save-btn:hover{
+    background: rgb(234, 127, 88);
+}
+.break-txt{
+    color: #48cb59;
+    font-size: 10px;
+    animation:2s blink infinite;
+    text-align: center;
+}
+@keyframes blink {
+    0%{
+        font-size: 0;
+    
+    }
+}
+.about{
+    height: 90vh;
+    /* animation: 1s slidein ; */
+}
+@keyframes slidein {
+    0%{
+        transform: translateX(100%);
+    }
+}
+.about p{
+    text-align: center;
+    color: #9c6c8c99;
+    border-bottom: 2px #d66ab2 solid ;
+    border-top: 2px #d66ab2 solid ;
+    padding: 20px;
+    font-weight: bold;
+    animation: 3s expand;
+    transition: all ease 1.5s;
+}
+@keyframes expand {
+    0%{
+        width: 0;
+    }
+}
+.socials{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+.socials a{
+    color: #d66ab2;
+    cursor: focus;
+    animation:1s rotate 2;
+    transition: all ease 2s;
+}
+@keyframes rotate {
+    0%{
+        opacity: 0;
+        transform: rotate(360deg);
+    }
 }
