@@ -1,7 +1,10 @@
 # POMODORO TIMER 
 <h2>Enjoyed making this one 🐱‍💻</h2>
 <p>Pomodoro timer is a time management technique that helps productivity by accurately breaking work into intervals and setting breaks inbetween.</p>
-- <p>This one is an updated version with better UI to the previous</p>
+- <p>This one is an updated version with better UI to the previous
+  </br>
+  - Handled all the states with useReducer hook
+</p>
 <br>
 - <p>I added new features such <br/> 
 -  Themes <br/>
