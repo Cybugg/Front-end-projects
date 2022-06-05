@@ -201,7 +201,8 @@ case ACTIONS.ABOUTME:
     timerDisplay:false,
     settingsDisplay:false,
     aboutDisplay:true,
-    infoDisplay:false
+    infoDisplay:false,
+    onplay:false
   }
 }
 }
