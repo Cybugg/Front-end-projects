@@ -1,7 +1,6 @@
 import React from "react"
 import Countdown from "react-countdown"
 import {CountdownCircleTimer,useCountdown} from "react-countdown-circle-timer"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Button from '@mui/material/Button';
 import SpeedDial from '@mui/material/SpeedDial';
 import SpeedDialIcon from '@mui/material/SpeedDialIcon';
