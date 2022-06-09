@@ -1,0 +1,58 @@
+/* MarkDown Previewer */
+.containMark{
+    background: linear-gradient(orange,blue);
+    padding: 20px;
+}
+.containMark h3{
+    color: rgb(252, 254, 255);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.containMark .mdTitle{
+    color: #d4ea83;
+    text-shadow: 2px 2px 1px rgba(0, 0, 255, 0.325);
+}
+.Markdown{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.inputMark{
+    height: 100vh;
+    word-wrap: break-word;
+    word-break: break-all ;
+   
+}
+.inputMark textarea{
+    min-height: 50%;
+    width: 100%;
+    padding: 0;
+    background-color: rgba(242, 236, 225, 0.50);
+    border-radius: 10px;
+    border: 0;
+    border-left: 2px rgba(255, 255, 255, 0.473)solid;
+    border-top: 2px solid rgba(255, 255, 255, 0.473);
+    box-shadow: 1px 1px 2px black;
+    outline: none;
+    padding: 5px;
+    color: black;
+    overflow: scroll;
+    word-wrap: break-word;
+    word-break: break-all ;
+    overflow: auto;
+}
+
+.outputMark{
+    height: 100vh;
+
+}
+.outputbox{
+    background-color: white;
+    min-height: 50%;
+    border-left: 2px rgba(255, 255, 255, 0.473)solid;
+    border-top: 2px solid rgba(255, 255, 255, 0.473);
+    background-color: rgba(242, 236, 225, 0.50);
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px black;
+    padding: 5px;
+    color: black;
+}
