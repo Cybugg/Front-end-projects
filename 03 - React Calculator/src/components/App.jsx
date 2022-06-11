@@ -73,6 +73,7 @@ const reducer = (state,{type,payload}) =>{
         return{
     ...state,
     current:"0",
+    operation:payload.operation,
     previous:evaluate(state)
         }
     case ACTIONS.EVAL:
