@@ -1,4 +1,11 @@
 # A Markdown converter
+<<<<<<< HEAD
+=======
+- The app was made with react
+- Dependencies such as react and react-dom is needed to work
+- The folder contains the the source codes to this project, commented.
+- - This folder does not conatin node modules
+>>>>>>> 9a3b70d33e8f842fa717c849fd2b2c6c9e06e3f9
 <h4>Pictures from this Project</h4>
 <img  src="./public/Screenshot (91).png"/>
 <img  src="./public/Screenshot (92).png"/>
